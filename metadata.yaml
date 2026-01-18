@@ -1,0 +1,5 @@
+name: astrbot_plugin_git_sync
+desc: 同步本地文件到 GitHub 仓库，支持上传和下载
+version: 1.3.0
+author: Gemini
+repo: https://github.com/constansino/astrbot_plugin_git_sync

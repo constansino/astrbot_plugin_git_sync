@@ -1,0 +1,39 @@
+{
+  "github_token": {
+    "type": "string",
+    "description": "GitHub Personal Access Token (repo scope)",
+    "default": ""
+  },
+  "github_repo": {
+    "type": "string",
+    "description": "GitHub 仓库 (用户名/仓库名，如 Soulter/AstrBot-Data)",
+    "default": ""
+  },
+  "sync_paths": {
+    "type": "list",
+    "description": "要同步的本地文件绝对路径列表",
+    "default": [
+      "/AstrBot/data/cmd_config.json"
+    ]
+  },
+  "enable_auto_sync": {
+    "type": "bool",
+    "description": "是否开启自动定时同步（上传）",
+    "default": false
+  },
+  "sync_interval": {
+    "type": "int",
+    "description": "自动同步间隔（分钟）",
+    "default": 60
+  },
+  "trigger_upload": {
+    "type": "bool",
+    "description": "立即执行一次上传（勾选并保存后生效，建议使用后取消勾选）",
+    "default": false
+  },
+  "trigger_download": {
+    "type": "bool",
+    "description": "立即执行一次下载（勾选并保存后生效，建议使用后取消勾选）",
+    "default": false
+  }
+}
