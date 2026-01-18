@@ -1,6 +1,6 @@
 # AstrBot Plugin Git Sync
 
-一个用于 [AstrBot](https://github.com/Soulter/AstrBot) 的插件，支持将本地文件（如配置文件、数据文件）同步到 GitHub 仓库，支持上传、下载及自动定时备份。
+一个用于 [AstrBot](https://github.com/Soulter/AstrBot) 的插件，支持将本地文件（如配置文件、数据文件）同步到 GitHub 仓库，支持上传、下载及自动定时备份。一个使用案例:自动同步astrbot的配置文件 方便直接在git上查看和修改llm信息
 
 ## ✨ 功能特性
 
